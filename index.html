@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aether</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo|Varela|Lobster">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
 
+<body>
+    <div class="main">
+        <img src="https://wallpapercave.com/wp/wp6418815.jpg" class="bgImage">
+        <div class="titleBlur">
+            <span class="titleBar">
+                <h1 class="title"> Aether <i class="fa-solid fa-atom aetherIcon"></i> </h1>
+                <a class="titleLinks weather">Null</a>
+                <a class="titleLinks todo">Null</a>
+                <a class="titleLinks calender">Null</a>
+            </span>
+        </div>
+
+        <div class="time">
+            <h1 class="timeTitle"> Current Time </h1>
+            <span class="currentTime" id="realTime"></span>
+            <span class="currentTime" id="realDate"></span>
+        </div>
+
+
+        <div class="embedWeather">
+            <iframe src="https://www.weatherbug.com/weather-forecast/now/siloam-springs-ar-72761" frameborder="0" class="iframeWebsite"></iframe>
+
+    </div>
+
+
+    <script src="date.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.js"></script>
+</body>
+
+</html>
